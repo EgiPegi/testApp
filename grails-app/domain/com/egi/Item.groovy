@@ -11,7 +11,7 @@ class Item {
         name size: 5..40, blank: false
         price min: 0
         quantity min: 0
-        description size: 5..40, blank: false
+        description size: 5..500, blank: false
     }
 
     String toString() {
