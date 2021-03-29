@@ -1,4 +1,4 @@
-# Grails 4 With Mysql 
+# Grails 4 With Mysql 8
 Clone this repo <br>
 go to 
 ```bash
