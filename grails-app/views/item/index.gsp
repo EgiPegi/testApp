@@ -6,6 +6,17 @@
         <title><g:message code="default.list.label" args="[entityName]" /></title>
     </head>
     <body>
+    <content tag="nav">
+        <li class="navItem">
+            <a href="/" class="navItem-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+        </li>
+        <li class="navItem">
+            <a href="/item/index" class="navItem-toggle" role="button" aria-haspopup="true" aria-expanded="false">Item <span class="caret"></span></a>
+        </li>
+        <li class="navItem">
+            <a href="/transaction/index" class="navItem-toggle" role="button" aria-haspopup="true" aria-expanded="false">Transaction <span class="caret"></span></a>
+        </li>
+    </content>
         <a href="#list-item" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
         <div class="nav" role="navigation">
             <ul>

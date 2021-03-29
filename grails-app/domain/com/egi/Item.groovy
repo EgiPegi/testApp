@@ -1,7 +1,6 @@
 package com.egi
 
 class Item {
-    static belongsTo = [cart: Cart]
     String name
     Integer price
     Integer quantity

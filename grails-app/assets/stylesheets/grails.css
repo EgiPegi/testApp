@@ -51,6 +51,13 @@ a.navbar-brand {
     color: white !important;
     font-size: 19px !important;
 }
+.main-logo {
+    padding: 2px;
+    width: 65px;
+    height: auto;
+    border-radius: 65px;
+    border: white solid 2px;
+}
 .navbar-dark .navbar-nav>.active>a, .navbar-dark .navbar-nav>.active>a:hover, .navbar-dark .navbar-nav>.active>a:focus {
     background-color: transparent;
     color: white;
@@ -59,7 +66,7 @@ a.navbar-brand {
     color: white !important;
 }
 .navbar-nav>li>a:hover {
-    background-color: #2559a7 !important;
+    background-color: #646b7762 !important;
     color: white !important;
 }
 .navbar-nav>li>a {
@@ -606,7 +613,7 @@ h8 {
 #content .colset-2-its > h1 {
     padding-bottom: 15px;
     margin-top: 15px;
-    margin-bottom: 0
+    margin-bottom: 10px
 }
 
 #content .colset-2-its > p {
@@ -614,7 +621,8 @@ h8 {
     padding-bottom: 5px;
     text-align: center;
     color: #222;
-    font-size: 15px
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #content .colset-2-its .col1, #content .colset-2-its .col2 {
@@ -686,7 +694,40 @@ h8 {
 #content .colset-2-its article p {
     margin: 0;
     line-height: 24px;
-    font-size: 14px
+    font-size: 14px;
+}
+
+.service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.service .serviceItem {
+    background-color: white;
+    padding: 10px;
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    border-radius: 8px;
+    -webkit-box-shadow: 3px 4px 8px 5px rgba(0, 0, 0, 0.055); 
+    box-shadow: 3px 4px 8px 5px rgba(0, 0, 0, 0.061);
+    font-size: 18px;
+}
+.landing-subtitle {
+    /* background-color: tomato; */
+    text-align: center;
+    font-size: 35px;
+}
+
+.service .serviceItem .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 #content .first-event-row {
